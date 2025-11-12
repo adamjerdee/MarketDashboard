@@ -2,10 +2,14 @@
 Raspberry Pi Market Dashboard — Installation Instructions
 ====================================================
 
+<p align="center">
+  <img src="./pi_dashboard_moc.png" alt="Screenshot of Market Dashboard" width="700">
+</p>
+
 This guide explains how to install and run the Market Dashboard on a Raspberry Pi 5 (with the 7" display) or on Windows.
 
 ------------------------------------------------------------
-2) Create a project folder and virtual environment
+1) Create a project folder and virtual environment
 ------------------------------------------------------------
 
 mkdir -p ~/market
@@ -14,7 +18,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 ------------------------------------------------------------
-3) Install Python dependencies
+2) Install Python dependencies
 ------------------------------------------------------------
 
 pip install matplotlib requests holidays
@@ -23,8 +27,8 @@ pip install matplotlib requests holidays
 > If you run on Windows, also do: pip install tzdata
 
 ------------------------------------------------------------
-4) Get a free Finnhub API key
-------------------------------------------------------------
+3) Get a free Finnhub API key
+-----------------------------------------------------------
 
 1. Create a free account at https://finnhub.io
 2. Copy your API key.
@@ -38,13 +42,13 @@ source ~/.bashrc
 export FINNHUB_API_KEY=YOUR_KEY_HERE
 
 ------------------------------------------------------------
-5) Put the code in place
+4) Put the code in place
 ------------------------------------------------------------
 
 Save market_dashboard.py into ~/market/
 
 ------------------------------------------------------------
-6) Run it
+5) Run it
 ------------------------------------------------------------
 
 source ~/market/.venv/bin/activate

@@ -3,7 +3,7 @@ Raspberry Pi Market Dashboard — Installation Instructions
 ====================================================
 
 <p align="center">
-  <img src="./pi_dashboard_moc.png" alt="Screenshot of Market Dashboard" width="700">
+  <img src="./pi_dashboard_mock.png" alt="Screenshot of Market Dashboard" width="700">
 </p>
 
 This guide explains how to install and run the Market Dashboard on a Raspberry Pi 5 (with the 7" display) or on Windows.

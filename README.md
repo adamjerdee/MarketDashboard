@@ -107,3 +107,13 @@ Troubleshooting
 - Nothing updates after close:
   This is by design. The dashboard freezes after 3:00 PM CT
   and resumes next market day at 8:30 AM CT.
+
+
+------------------------------------------------------------
+Requirements
+------------------------------------------------------------
+
+matplotlib
+requests
+holidays
+tzdata
